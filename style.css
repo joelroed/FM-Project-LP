@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+
+  body {
+    font-size: 16px;
   }
 
   html {
@@ -31,7 +35,7 @@
 
   /*
   
-  LANDING PAGE 
+  LANDING PAGE NAV
   
   */
 
@@ -40,7 +44,6 @@
   }
 
   .btn__get-started {
-    
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -50,13 +53,11 @@
     transition-property: background-color,border-color,color,box-shadow,filter;
     transition-duration: .3s;
     border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-width: 140px;
     white-space: normal;
     font-weight: 700;
     text-align: center;
-    padding: 14px 12px 16px;
     color: #fff;
     background-color: hsl(12, 88%, 59%);
     height: 42px;
@@ -79,3 +80,45 @@
   .nav__link {
     padding: 0 1rem;
   }
+
+  /*
+  
+  LANDING PAGE 
+  
+  */
+
+  #landing__page {
+    padding: 5rem 0 0 0;
+  }
+
+  .title__and--visuals {
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0;
+  }
+
+  .lp__title-text {
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0 5rem;
+  }
+
+  .lp__title-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(220, 7%, 70%);
+    padding: 1.5rem 0;
+  }
+
+  .lp__illu {
+    transform: translateY(-15%);
+    padding: 0 5rem;
+  }
+
+  /*
+  
+  INFORMATION 
+  
+  */
+
+  
