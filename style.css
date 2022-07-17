@@ -33,6 +33,10 @@
     color: hsl(228, 39%, 23%);
   }
 
+  .grey {
+    color: hsl(220, 7%, 70%);
+  }
+
   /*
   
   LANDING PAGE NAV
@@ -106,7 +110,6 @@
   .lp__title-para {
     font-size: 16px;
     font-weight: 400;
-    color: hsl(220, 7%, 70%);
     padding: 1.5rem 0;
   }
 
@@ -121,4 +124,34 @@
   
   */
 
-  
+  .info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info__title {
+    font-size: 36px;
+  }
+
+  .info__para {
+    font-size: 16px;
+    padding: 1rem 0 0 0;
+  }
+
+  .info__left {
+    padding: 0 5rem;
+  }
+
+
+  .info__right {
+    padding: 0 5rem;
+  }
+
+  .info__right-para {
+    font-size: 16px;
+    padding: 1rem 0;
+  }
+
+  .info__right-title {
+    font-size: 16px;
+  }
